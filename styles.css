@@ -1,0 +1,243 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f9f6;
+    color: #4a4a4a;
+}
+
+/*Barra de Navegación*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-sizing: border-box;
+}
+
+.navbar .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #91b709;
+    margin-right: 20px;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .nav-links a {
+    text-decoration: none;
+    color: #4a4a4a;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-links a:hover {
+    color: #91b709;
+}
+
+.navbar .nav-links .crear-cuenta {
+    color: #ffffff;
+    background-color: #ccdf68;
+    padding: 7px 17px;
+    border-radius: 12px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar .nav-links .crear-cuenta:hover {
+    background-color: #91b709;
+    color: #ffffff;
+}
+
+.navbar .login {
+    background-color: #f1f1f1;
+    padding: 7px 12px;
+    border-radius: 12px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/*Inicio*/
+.inicio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 150px 20px 70px;
+    background-color: #e6ebcc;
+    min-height: 750px;
+}
+
+.inicio .content {
+    max-width: 50%;
+    margin-left: 10%;
+}
+
+.inicio h1 {
+    font-size: 2.8rem;
+    color: #4a4a4a;
+    margin: 0;
+}
+
+.inicio .personalizado {
+    color: #8fb704;
+}
+
+.inicio .recetify {
+    font-size: 5rem;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.inicio .rece {
+    color: #91b709;
+}
+
+.inicio .tify {
+    color: #c7db5a;
+}
+
+.inicio .cta {
+    background-color: #c4d950;
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.inicio .cta:hover{
+    background-color: #91b709;
+}
+
+.inicio .imagen {
+    max-width: 35%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inicio .imagen img {
+    max-width: 90%;
+    height: auto;
+}
+
+/*¿Cómo funciona?*/
+.como-funciona {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 70px 20px 70px;
+    background-color: #c5d951;
+    min-height: 750px;
+}
+
+.como-funciona h2 {
+    font-size: 4rem;
+    color: #ffffff;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.como-funciona .funciona-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    gap: 20px;
+}
+
+.como-funciona .funciona-text {
+    font-size: 3rem;
+    line-height: 3.5rem;
+    color: #4a4a4a;
+    text-align: left;
+    max-width: 50%;
+    font-weight: 400;
+}
+
+.como-funciona .funciona-text .highlight-white {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.como-funciona .imagen {
+    max-width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.como-funciona .imagen img {
+    max-width: 80%;
+    height: auto;
+}
+
+/*Contacto*/
+.contacto {
+    padding: 70px 20px;
+    background-color: #e6ebcd;
+    min-height: 750px;
+}
+
+.contacto h2 {
+    font-size: 3rem;
+    color: #8cb500;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.contacto form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contacto form label {
+    font-weight: bold;
+    color: #4a4a4a;
+    text-align: left;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contacto input, .contacto textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contacto button {
+    background-color: #c5d951;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto 0;
+    font-size: 1rem;
+}
+
+.contacto button:hover{
+    background-color: #91b709;
+}
